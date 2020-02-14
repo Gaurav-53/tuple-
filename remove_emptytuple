@@ -1,0 +1,6 @@
+ls=[(),(),("",),('a','b'),('a','b','c'),('d',)]
+l=[]
+for i in ls:
+	if len(i)!=0:
+		l.append(i)
+print(l)
